@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my crud application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Task Planner</h1>
+        <form name = "task_form" id = "new_task_form" class="new_task_form">
+            <input type="text" name = "input" class="task_input" id="new_task_input">
+            <input type="submit" id = "submit" value="add task" class="taskadd" placeholder="what are you learning">
+        </form>
+    </header>
+    <main>
+        <section>
+            <h3>My Current Tasks</h3>
+            <div id="tasks" class="tasks">
+
+            </div>
+        </section> 
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
